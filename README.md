@@ -1,6 +1,7 @@
-# *pingstorm*
+# *PingStorm*
 
 About the project:
+
 PingStorm is a tool that measures ping latency to several websites.
 The tool runs a speed test on reaching those websites and gives a visualized results
 
