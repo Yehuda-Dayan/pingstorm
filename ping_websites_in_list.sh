@@ -3,7 +3,8 @@ websites=(www.google.com www.facebook.com www.tiktok.com www.youtube.com www.net
 
 echo pinging ${websites[@]}
 for site in ${websites[@]}; do
-echo $(ping -c 4 $site) #pings 4 times for each website
+results=$(ping -c 4 $site) #pings 4 times for each website and save as variable
+#echo $results
 test=$? #check if works
 echo $test
 	if [ $test -eq 0 ]; then #explain if website is reachable
