@@ -6,12 +6,10 @@ for site in ${websites[@]}; do
 ping -c 4 $site #pings 4 times for each website
 test=$? #check if works
 echo $test
-
-	if [$test -eq 0 ]; then #explain if website is reachable
+	if [ $test -eq 0 ]; then #explain if website is reachable
 	echo "host $site is reachable"
 	else
 	echo "host $site not found"
 	fi
-
 
 done
