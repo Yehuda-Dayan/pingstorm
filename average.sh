@@ -29,4 +29,4 @@ echo "🔥 ממוצע כללי של כל האתרים: $overall_avg ms"
 echo ""
 echo "📊 ממוצעים לפי מהירות (מהיר -> איטי):"
 echo "$results" | sort -k2 -n
-hi
+
