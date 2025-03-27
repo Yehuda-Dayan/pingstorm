@@ -1,5 +1,5 @@
 #!/bin/bash
-websites=(www.google.com www.facebook.com www.tiktok.com www.youtube.com www.netflix.com)  #sites list
+websites=(www.google.com www.facebook.com www.tiktok.com www.youtube.com)  #sites list
 
 #echo pinging ${websites[@]}
 for site in ${websites[@]}; do
