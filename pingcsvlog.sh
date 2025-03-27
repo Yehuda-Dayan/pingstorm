@@ -8,9 +8,9 @@ write_log() {
 }
 
 echo "Service,Latency (ms)" > "$csv"
-for websites in "${!result[@]}"; do
-	echo "$websites,${result[$websites]}" >>"$csv"
-	write_log "Recorded $websites latency: ${result[$websites]} ms"
+for websites in "${!results[@]}"; do
+	echo "$websites,${results[$websites]}" >>"$csv"
+	write_log "Recorded $websites latency: ${results[$websites]} ms"
 done
 
 write_log "Results exported to $csv"
