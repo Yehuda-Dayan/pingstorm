@@ -1,5 +1,6 @@
 #!/bin/bash
 
+RESULTS=$(ping_websites_in_list.sh)
 
 # משתנים כלליים
 total=0
@@ -8,13 +9,11 @@ results=""
 
 
 while read -r site t1 t2 t3 t4; do
-    
+
     avg=$(echo "($t1 + $t2 + $t3 + $t4) / 4" | bc -l)
 
-    
     avg=$(printf "%.2f" "$avg")
 
-  
     total=$(echo "$total + $avg" | bc)
     count=$((count + 1))
 
