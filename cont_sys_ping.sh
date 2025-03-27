@@ -17,7 +17,7 @@ read -p "entre your choice [1-4]:  " user_choice1
 
 if [[ "$user_choice1" == "1" ]]; then
 echo "here"
-./ping_websites_in_list
+./ping_websites_in_list.sh
 
 elif [[ "$user_choice1" == "2" ]]; then
 echo "Pingstorm is off"
