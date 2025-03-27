@@ -12,3 +12,5 @@ Main Features:
 * Printing the overall average latency.
 * Printing a sorted ranking by latency, including a visual fill bar.
 * Export data option
+
+*cont_sys_ping.sh is the main script*
