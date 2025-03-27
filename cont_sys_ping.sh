@@ -17,7 +17,7 @@ read -p "entre your choice [1-4]:  " user_choice1
 
 if [[ "$user_choice1" == "1" ]]; then
 echo "here"
-#              entre here the link to start ping storm 
+./ping_websites_in_list
 
 elif [[ "$user_choice1" == "2" ]]; then
 echo "Pingstorm is off"
