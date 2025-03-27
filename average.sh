@@ -1,7 +1,7 @@
 #!/bin/bash
 
-RESULTS=$(ping_websites_in_list.sh)
-
+RESULTS=$(./ping_websites_in_list.sh)
+echo $RESULTS
 # משתנים כלליים
 total=0
 count=0
