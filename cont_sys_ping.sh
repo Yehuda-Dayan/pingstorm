@@ -29,7 +29,8 @@ user_choice=1
 
 elif [[ "$user_choice1" == "4" ]]; then
 echo "show log"
-#          entre here the commend to show the log file
+head -n 10 logfile.log
+
 user_choice=1
 
 else 
