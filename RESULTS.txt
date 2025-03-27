@@ -1,0 +1,6 @@
+pinging www.google.com www.facebook.com www.tiktok.com www.youtube.com www.netflix.com
+6.72 4.64 5.92 7.52
+82.1 92.2 66.0 70.0
+66.9 77.1 72.5 68.6
+9.01 43.9 8.75 7.75
+
